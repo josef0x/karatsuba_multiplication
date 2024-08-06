@@ -59,7 +59,7 @@ int main(int argc, char** argv)
     // printf("\n");
 
     gettimeofday(&start_tv, NULL);
-    mulpu(r1, p, q,0, 0, p->deg, 0, q->deg);
+    r1 = mulpu(p, q);
     // r1 = mulpu_(p, q);
     gettimeofday(&end_tv, NULL);
     // printf("p(x)q(x) = ");
