@@ -30,4 +30,4 @@ bool equals(poly_u_t* r1, poly_u_t* r2);
 
 poly_u_t* mulpu(poly_u_t* p, poly_u_t* q);
 
-poly_u_t* mulpukr(poly_u* p, poly_u_t* q);
+poly_u_t* mulpukr(poly_u_t* p, poly_u_t* q);

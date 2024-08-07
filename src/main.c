@@ -48,10 +48,6 @@ int main(int argc, char** argv)
 
     uint32_t n = deg/2;
 
-    // TODO: change this later to ONLY 3 parameters:
-    // 1 poly to store result + 2 polys to multiply
-    // mulpu(r1, p, q, 0, p->deg, 0, q->deg);
-
     // printf("p(x) = ");
     // display_poly_u(p, true);
     // printf("q(x) = ");
