@@ -33,12 +33,12 @@ int main(int argc, char** argv)
 
     for (size_t i = 0 ; i <= p->deg ; i++)
     {
-        p->c[i] = 1 + (rand() % MOD);
+        p->c[i] = rand();
     }
 
     for (size_t i = 0 ; i <= q->deg ; i++)
     {
-        q->c[i] = 1 + (rand() % MOD);
+        q->c[i] = rand();
     }
 
     // the result to be stored in r
